@@ -1,0 +1,91 @@
+html {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: black;
+}
+
+h1, p {
+  text-align: center;
+  color: white;
+  font-size: 4.5vh;
+}
+
+#noselect {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+#link-wrap {
+  //  text-align:center;
+  position: fixed !important;
+  font-size: 12px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 10000;
+  display: inline-block;
+  font-size: 2vh;
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  padding-bottom: 5px;
+}
+
+/* Mozilla based browsers */
+::-moz-selection {
+       background-color: white;
+       color: white;
+}
+
+/* Works in Safari */
+::selection {
+       background-color: white;
+       color: white;
+}
+
+.type-wrap {
+  color: red; 
+}
+
+.typed-cursor {
+	opacity: 1;
+	animation: blink .7s infinite;
+	color: grey;
+	cursor: default;
+}
+
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#typed3 {
+	color: red;
+}
+
+.button {
+	background-color: white;
+	border: solid 2px;
+	border-color: black;
+	color: black;
+	padding: 5px 15px;
+  border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+	margin: 4px 2px;
+	cursor: pointer;
+}

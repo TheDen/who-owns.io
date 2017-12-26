@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<meta charset="utf-8">
+		<link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<title>Who Owns?</title>
+	</head>
+	<body>
+		<div id="noselect">
+			<h1>Who Owns
+				<span id="typed3"></span>
+			</h1>
+			<!-- Typed.js-->
+			<script src="js/typed.js"></script>
+			<script>
+				var typed3 = new Typed('#typed3', {
+					strings: ['Forbes?', 'Vice?', 'New York Post?', 'HuffPost?', 'Washington Post?'],
+					typeSpeed: 50,
+					backSpeed: 50,
+					backDelay: 2500,
+					showCursor: true,
+					shuffle: true,
+					cursorChar: '_',
+					smartBackspace: true, // this is a default
+					loop: true
+				});
+			</script>
+		</div>
+		<div style="text-align: center;">
+			<p>An extension that displays which companies own the websites you visit.</p>
+			<div id="noselect">
+				<a href="#"><img style="text-align: center; max-width: 20vh; " draggable="false" src="./chrome.png"></a>
+				<br>
+				<a href="#" class="button">Install for Chrome</a>
+				<br>
+				<br>
+				<br>
+				<a href="https://github.com/TheDen/who-owns" target="_blank"><img style="text-align: center; max-width: 20vh;" draggable="false" src="./github.png"></a>
+				<br>
+				<a href="https://github.com/TheDen/who-owns" class="button" target="_blank">Source Code</a>
+			</div>
+		</div>
+		<div id="link-wrap">
+			<a style="display: inline-block; float: left; text-decoration: none;" href="http://theden.sh" target="_blank">✌theden.sh</a>
+		</div>
+	</body>
+</html>
