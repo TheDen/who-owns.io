@@ -17,8 +17,10 @@ h1, p {
   user-select: none;
 }
 
-#link-wrap {
+#link-wrap a:link {
+  color: white;
   //  text-align:center;
+  padding-left: 5px;
   position: fixed !important;
   font-size: 12px;
   left: 0;
@@ -27,7 +29,6 @@ h1, p {
   z-index: 10000;
   display: inline-block;
   font-size: 2vh;
-
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -89,3 +90,4 @@ h1, p {
 	margin: 4px 2px;
 	cursor: pointer;
 }
+
