@@ -6,7 +6,15 @@
 		<link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
 		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-		<!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76175181-8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+              gtag('config', 'UA-76175181-8');
+            </script>
 		<title>Who Owns?</title>
 	</head>
 	<body>
@@ -30,7 +38,10 @@
 				});
 			</script>
 		</div>
-		<div style="text-align: center;">
+    <div style="text-align: center;">
+      <div id="noselect">
+        <img style="text-align: center; max-width: 20vh;" draggable="false" src="./logo-white.png"></a>
+    </div>
       <p>An extension that displays which companies own the websites you visit.</p>
       <p>Open Source. Community driven.</p>
 			<div id="noselect">
@@ -48,5 +59,6 @@
 		<div id="link-wrap">
 			<a style="display: inline-block; float: left; text-decoration: none;" href="http://theden.sh" target="_blank">theden.sh</a>
 		</div>
-	</body>
+  </body>
+  <!-- Icon made by [Gregor Cresnar](https://www.flaticon.com/authors/gregor-cresnar) from [www.flaticon.com](www.flaticon.com) -->
 </html>
